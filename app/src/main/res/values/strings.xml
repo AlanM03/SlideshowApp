@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">SlideshowApp</string>
+    <string name="caption1">Image1</string>
+    <string name="caption2">Image 2</string>
+    <string name="caption3">Image 3</string>
+    <string name="caption4">Image 4</string>
+    <string name="caption5">Image 5</string>
+    <string name="caption6">Image 6</string>
+    <string name="caption7">Image 7</string>
+    <string name="caption8">Image 8</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="go">Go</string>
+    <string name="enter_image_number">Enter image number (1-8)</string>
 </resources>
