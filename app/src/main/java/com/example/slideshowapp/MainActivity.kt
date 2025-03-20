@@ -139,9 +139,9 @@ fun SlideshowLayout() {
             //button to click to search
             Button(onClick = {
                 val number = jumpInput.toIntOrNull()
-                //error handling so that you cant go to a number that doesnt exist
+                //error handling so that you cant go to a number that doesnt exist (mainly I just found this on internet)
                 if (number != null && number in 1..imageIds.size) {
-                    currentIndex = number - 1  // Convert from 1-based to 0-based index.
+                    currentIndex = number - 1  
                 } else {
                     errorMessage = "Invalid number"
                 }
@@ -149,6 +149,7 @@ fun SlideshowLayout() {
                 Text(text = stringResource(id = R.string.go))
             }
         }
+        //makes the box change on error
         if (errorMessage.isNotEmpty()) {
             Text(text = errorMessage, color = MaterialTheme.colorScheme.error)
         }
